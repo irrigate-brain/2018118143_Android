@@ -20,6 +20,7 @@ public class MyService extends Service {
     class DownloadBinder extends Binder {
 
         public void startDownload() {
+
             Log.d("MyService", "startDownload executed");
         }
 
