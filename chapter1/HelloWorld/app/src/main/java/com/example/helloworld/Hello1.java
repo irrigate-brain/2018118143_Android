@@ -76,8 +76,13 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
         }
         if (v.getId() == R.id.btToHello3) {
             Intent intent;
-            intent = new Intent(this, Hello3.class);
+            String string1 = "com.example.helloworld.intent.action.H3";
+            // intent = new Intent(this, Hello3.class);
+            intent = new Intent(string1);
             startActivity(intent);
+//            Intent intent1 = new Intent(Intent.ACTION_VIEW);
+//            intent1.setData(Uri.parse("http://www.hstc.edu.cn"));
+//            startActivity(intent1);
         }
     }
 
