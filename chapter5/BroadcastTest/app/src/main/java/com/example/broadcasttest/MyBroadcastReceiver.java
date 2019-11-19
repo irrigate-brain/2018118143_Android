@@ -9,7 +9,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Toast.makeText(context, "received in MyBroadcastReceiver", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "成功接收自定义全局广播！", Toast.LENGTH_SHORT).show();
         abortBroadcast();
     }
 
