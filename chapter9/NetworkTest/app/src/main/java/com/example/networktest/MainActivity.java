@@ -28,7 +28,6 @@ import java.util.List;
 
 import javax.xml.parsers.SAXParserFactory;
 
-import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -102,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     OkHttpClient client = new OkHttpClient();
                     Request request = new Request.Builder()
                             // 指定访问的服务器地址是电脑本机
-                            .url("http://10.0.2.2/get_data.json")
+                            .url("https://raw.githubusercontent.com/holycloud/booksource/master/chapter9/NetworkTest/get_data.json")
                             .build();
                     Response response = client.newCall(request).execute();
                     String responseData = response.body().string();

@@ -12,6 +12,10 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+<<<<<<< HEAD
+=======
+        <option name="testRunner" value="PLATFORM" />
+>>>>>>> master
       </GradleProjectSettings>
     </option>
   </component>

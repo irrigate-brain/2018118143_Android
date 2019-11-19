@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SharedPreferences pref = getSharedPreferences("data", MODE_PRIVATE);
-                String name = pref.getString("name", "");
-                int age = pref.getInt("age", 0);
-                boolean married = pref.getBoolean("married", false);
+                String name = pref.getString("name", "1");
+                int age = pref.getInt("age", 1);
+                boolean married = pref.getBoolean("married", true);
                 Log.d("MainActivity", "name is " + name);
                 Log.d("MainActivity", "age is " + age);
                 Log.d("MainActivity", "married is " + married);
