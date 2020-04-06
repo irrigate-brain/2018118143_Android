@@ -43,8 +43,8 @@ public class MyService extends Service {
         Intent intent = new Intent(this, MainActivity.class);
         PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
         Notification notification = new NotificationCompat.Builder(this)
-                .setContentTitle("This is content title")
-                .setContentText("This is content text")
+                .setContentTitle("我的通知")
+                .setContentText("普通服务开启了")
                 .setWhen(System.currentTimeMillis())
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))

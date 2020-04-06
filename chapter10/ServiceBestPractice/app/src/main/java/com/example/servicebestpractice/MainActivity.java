@@ -10,7 +10,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -36,10 +35,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button startDownload = (Button) findViewById(R.id.start_download);
+        Button btStartDownload = (Button) findViewById(R.id.start_download);
         Button pauseDownload = (Button) findViewById(R.id.pause_download);
         Button cancelDownload = (Button) findViewById(R.id.cancel_download);
-        startDownload.setOnClickListener(this);
+        btStartDownload.setOnClickListener(this);
         pauseDownload.setOnClickListener(this);
         cancelDownload.setOnClickListener(this);
         Intent intent = new Intent(this, DownloadService.class);

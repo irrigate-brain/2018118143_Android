@@ -8,6 +8,7 @@ public class MyIntentService extends IntentService {
 
     public MyIntentService() {
         super("MyIntentService"); // 调用父类的有参构造函数
+        Log.d("MyIntentService", "Thread id is " + Thread.currentThread(). getId());
     }
 
     @Override
@@ -20,6 +21,7 @@ public class MyIntentService extends IntentService {
     public void onDestroy() {
         super.onDestroy();
         Log.d("MyIntentService", "onDestroy executed");
+        Log.d("MyIntentService", "Thread id is " + Thread.currentThread(). getId());
     }
 
 }
