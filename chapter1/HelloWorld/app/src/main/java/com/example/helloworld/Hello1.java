@@ -22,7 +22,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
         mObjCount = objCount;
         Log.d(TAG, mObjCount + "-onCreate execute");
         setTitle("Hello1");
-        settupButtons();
+        setupButtons();
     }
 
     @Override
@@ -86,7 +86,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
-    private void settupButtons() {
+    private void setupButtons() {
         Button b;
 
         b = (Button) findViewById(R.id.btToHello1);

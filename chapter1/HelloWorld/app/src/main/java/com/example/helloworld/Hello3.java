@@ -16,7 +16,7 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_hello3);
         Log.d(TAG, "onCreate execute");
         setTitle("Hello3");
-        settupButtons();
+        setupButtons();
         Intent intent = this.getIntent();
         if (intent == null) {
             Log.d("test tag", "This activity is invoked without an intent");
@@ -78,7 +78,7 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
-    private void settupButtons() {
+    private void setupButtons() {
         Button b;
 
         b = (Button) findViewById(R.id.btToHello1);

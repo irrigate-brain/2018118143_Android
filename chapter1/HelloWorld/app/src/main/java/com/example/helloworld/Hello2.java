@@ -17,7 +17,7 @@ public class Hello2 extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_hello2);
         Log.d(TAG, "onCreate execute");
         setTitle("Hello2");
-        settupButtons();
+        setupButtons();
     }
 
     @Override
@@ -76,7 +76,7 @@ public class Hello2 extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
-    private void settupButtons() {
+    private void setupButtons() {
         Button b;
 
         b = (Button) findViewById(R.id.btToHello1);
