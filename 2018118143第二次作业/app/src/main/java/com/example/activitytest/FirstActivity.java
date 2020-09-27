@@ -2,7 +2,10 @@ package com.example.activitytest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,12 +17,14 @@ public class FirstActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("FirstActivity","Task id is "+getTaskId());
         setContentView(R.layout.first_layout);
         Button button1 = (Button) findViewById(R.id.button_1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -42,4 +47,26 @@ public class FirstActivity extends AppCompatActivity {
         }
         return true;
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case 1:
+                if (resultCode == RESULT_OK) {
+                    String returnedData = data.getStringExtra("data_return");
+                    Log.d("FirstActivity", returnedData);
+                }
+                break;
+            default:
+        }
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("FirstActivity","onRestart");
+    }
+
+
 }
