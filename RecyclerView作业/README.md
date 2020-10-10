@@ -210,13 +210,13 @@ fruit_item.xml:
 
 #### 运行结果：
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/RecyclerView%E4%BD%9C%E4%B8%9A/%E6%88%AA%E5%9B%BE1.png?raw=true)
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/RecyclerView%E4%BD%9C%E4%B8%9A/%E6%88%AA%E5%9B%BE2.png?raw=true)
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/RecyclerView%E4%BD%9C%E4%B8%9A/%E6%88%AA%E5%9B%BE3.png?raw=true)
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/RecyclerView%E4%BD%9C%E4%B8%9A/%E6%88%AA%E5%9B%BE4.png?raw=true)
 
 
 
