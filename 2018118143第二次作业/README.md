@@ -9,7 +9,8 @@
 #### standard启动模式核心代码：
 
 ```java
-@Override
+
+/@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d("FirstActivity",this.toString());
