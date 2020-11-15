@@ -1,0 +1,4 @@
+#Fri Nov 13 17:34:20 GMT+08:00 2020
+base.0=G\:\\androidworkspace\\BroadcastTest\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
