@@ -26,7 +26,7 @@
 
 #### 运行结果：
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/Intent%E5%BA%94%E7%94%A8/1.png?raw=true)
 
 
 
@@ -82,9 +82,9 @@
 
 #### 运行结果：
 
-![]()
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/Intent%E5%BA%94%E7%94%A8/2.png?raw=true)
 
-
+![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/Intent%E5%BA%94%E7%94%A8/3.png?raw=true)
 
 
 
