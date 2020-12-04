@@ -1,6 +1,7 @@
 package com.coolweather.android;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
@@ -23,13 +24,17 @@ import com.bumptech.glide.Glide;
 
 import java.io.IOException;
 
-import gson.Forecast;
-import gson.Weather;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
-import util.HttpUtil;
-import util.Utility;
+
+import com.coolweather.android.gson.Forecast;
+
+import com.coolweather.android.gson.Weather;
+import com.coolweather.android.service.AutoUpdateService;
+import com.coolweather.android.util.HttpUtil;
+import com.coolweather.android.util.Utility;
 
 public class WeatherActivity extends AppCompatActivity {
 

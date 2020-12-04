@@ -19,14 +19,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import db.City;
-import db.County;
-import db.Province;
+import com.coolweather.android.db.City;
+import com.coolweather.android.db.County;
+import com.coolweather.android.db.Province;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
-import util.HttpUtil;
-import util.Utility;
+import com.coolweather.android.util.HttpUtil;
+import com.coolweather.android.util.Utility;
 
 import androidx.fragment.app.Fragment;
 
