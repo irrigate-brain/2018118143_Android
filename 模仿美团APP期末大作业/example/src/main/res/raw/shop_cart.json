@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "title": "清美内酯豆腐 400g/盒",
+      "desc": "质地细嫩 色香味均优于其他普通豆腐",
+      "id": "1",
+      "count": 2,
+      "price": 1.00,
+      "thumb": "https://img.ddimg.mobi/product/2f9f42dd5c3311558682395205.jpg!deliver.product.list"
+    },
+    {
+      "title": "土鸡蛋8枚",
+      "desc": "民生鸡蛋 物美价廉",
+      "id": "2",
+      "count": 2,
+      "price": 2.00,
+      "thumb": "https://img.ddimg.mobi/product/2d489406e91691544062166784.jpg!maicai.product.list"
+    },
+    {
+      "title": "鲜手擀面 300g/盒",
+      "desc": "够劲道的好面~",
+      "id": "3",
+      "count": 1,
+      "price": 3.00,
+      "thumb": "https://ddimg.ddxq.mobi/5e805bc3e9ebf1537628787739.jpg!maicai.product.list"
+    }
+  ]
+}

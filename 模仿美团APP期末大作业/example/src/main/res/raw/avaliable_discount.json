@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "id":1,
+      "shopname":"牛三爷嫩牛五方",
+      "type": "共享卷",
+      "expiretime":"2019.11.30",
+      "money":"￥7",
+      "condition": "满40可用"
+    },
+    {
+      "id":1,
+      "shopname":"四季粥铺",
+      "type": "共享卷",
+      "expiretime":"2019.11.30",
+      "money":"￥10",
+      "condition": "满50可用"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "code":0,
+  "message":"OK",
+  "order":{
+    "ALL":10,
+    "PAY":2,
+    "RECEIVE":3,
+    "EVALUATE":3,
+    "AFTERMARKET":2
+  },
+  "discount":[
+    {
+      "id":1,
+      "name":"生活卷",
+      "detail":"让生活更美好",
+      "img":""
+    },
+    {
+      "id":2,
+      "name":"网店卷",
+      "detail":"暂无可用优惠券",
+      "img":""
+    },
+    {
+      "id":3,
+      "name":"会员卡",
+      "detail":"一卡在手,逛店无忧",
+      "img":""
+    }
+  ]
+}
