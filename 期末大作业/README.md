@@ -1,3 +1,13 @@
-# 天气APP
+## 天气APP
 
-![](https://github.com/irrigate-brain/2018118143_Android/blob/homework/%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A/0c3c7592550cc1a4919e8432308adc6.png?raw=true)
+### 功能1(选择城市)：
+
+![](/截图/2.png)
+
+### 功能2(显示天气)：
+
+![](/截图/1.png)
+
+### 功能3(显示空气质量和生活建议)：
+
+![](/截图/3.png)
